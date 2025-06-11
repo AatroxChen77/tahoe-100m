@@ -27,6 +27,7 @@ This project contains a collection of Jupyter notebooks for data preparation, mo
      - Model saving
      -Visualization of the training curve
      -Analysis of predicted genes in hold-out set
+     -Best models are saved in models folder
 
 
 ## Setup and Installation
