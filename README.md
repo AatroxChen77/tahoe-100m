@@ -1,13 +1,13 @@
 # Project Name
 
 ## Overview
-This project contains a collection of Jupyter notebooks for data preparation, model training, and results visualization. The notebooks are designed to work with the Tahoe-100M dataset, which contains single-cell gene expression data.
+This project contains a collection of Jupyter notebooks for data preparation, model training, and results visualization. The notebooks are designed to work with the Tahoe-100M dataset, which contains single-cell gene expression data. We are looking into the subset of 1M of this dataset and use conditional Variational Auto-encoder to model gene expression changes associated with drug perturbaitons.
 
 ## Project Structure
 
 ### Notebooks
 
-1. **data_preparation.ipynb**
+1. **loading_data.ipynb**
    - Purpose: Data preprocessing and preparation
    - Main tasks:
      - Import required libraries
@@ -17,7 +17,7 @@ This project contains a collection of Jupyter notebooks for data preparation, mo
      - Data validation
      - Save processed data
 
-2. **model_training.ipynb**
+2. **model_dev.ipynb**
    - Purpose: Model development and training
    - Main tasks:
      - Load preprocessed data
@@ -25,14 +25,9 @@ This project contains a collection of Jupyter notebooks for data preparation, mo
      - Training pipeline implementation
      - Model evaluation
      - Model saving
+     -Visualization of the training curve
+     -Analysis of predicted genes in hold-out set
 
-3. **results_visualization.ipynb**
-   - Purpose: Results analysis and visualization
-   - Main tasks:
-     - Load model results
-     - Generate performance metrics
-     - Create visualizations
-     - Summarize findings
 
 ## Setup and Installation
 
@@ -45,15 +40,23 @@ This project contains a collection of Jupyter notebooks for data preparation, mo
 pip install -r requirements.txt
 ```
 
+or 
+
+```bash
+conda env create -f enviroment.yaml
+```
+
+
+
+
 ## Usage
 
-1. Start with `data_preparation.ipynb` to preprocess your data
-2. Run `model_training.ipynb` to train your models
-3. Use `results_visualization.ipynb` to analyze and visualize the results
+1. Start with `loading_data.ipynb` to preprocess your data
+2. Run `model_dev.ipynb` to train your models
 
 ## Data
 
-The project uses the Tahoe-100M dataset, which contains:
+The project uses the Tahoe-100M dataset (https://huggingface.co/datasets/tahoebio/Tahoe-100M), which contains:
 - Single-cell gene expression data
 - Drug treatment information
 - Cell line metadata
@@ -73,5 +76,5 @@ This project is licensed under the GNU License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Tahoe-100M dataset providers
+- Tahoe-100M dataset providers (https://huggingface.co/datasets/tahoebio/Tahoe-100M)
 - Contributors and maintainers
