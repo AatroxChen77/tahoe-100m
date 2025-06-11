@@ -1,4 +1,4 @@
-# Project Name
+# Tahoe-100M response prediction
 
 ## Overview
 This project contains a collection of Jupyter notebooks for data preparation, model training, and results visualization. The notebooks are designed to work with the Tahoe-100M dataset, which contains single-cell gene expression data. We are looking into the subset of 1M of this dataset and use conditional Variational Auto-encoder to model gene expression changes associated with drug perturbaitons.
