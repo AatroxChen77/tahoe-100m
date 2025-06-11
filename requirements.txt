@@ -86,6 +86,8 @@ jupyterlab-pygments @ file:///croot/jupyterlab_pygments_1741124142640/work
 jupyterlab-server @ file:///croot/jupyterlab_server_1725865349919/work
 jupyterlab-widgets==3.0.15
 kiwisolver @ file:///croot/kiwisolver_1737039087198/work
+legacy-api-wrap==1.4.1
+llvmlite==0.44.0
 markupsafe @ file:///croot/markupsafe_1738584038848/work
 matplotlib==3.10.0
 matplotlib-inline @ file:///work/ci_py311/matplotlib-inline_1676823841154/work
@@ -106,8 +108,9 @@ nest-asyncio @ file:///croot/nest-asyncio_1708532673751/work
 networkx @ file:///croot/networkx_1737039604450/work
 notebook==7.4.3
 notebook-shim @ file:///croot/notebook-shim_1741707758683/work
+numba==0.61.2
 numexpr @ file:///croot/numexpr_1730215937391/work
-numpy==1.26.4
+numpy @ file:///work/mkl/numpy_and_numpy_base_1682953417311/work
 overrides @ file:///croot/overrides_1699371140756/work
 overrides==7.7.0
 packaging @ file:///croot/packaging_1734472117206/work
@@ -116,6 +119,7 @@ pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp311-cp311-l
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 pandocfilters==1.5.1
 parso @ file:///croot/parso_1733963305961/work
+patsy==1.0.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pexpect==4.9.0
 pillow @ file:///croot/pillow_1744613067434/work
@@ -137,6 +141,7 @@ pyarrow==20.0.0
 pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pycparser==2.22
 pygments @ file:///croot/pygments_1744664109463/work
+pynndescent==0.5.13
 pyparsing @ file:///croot/pyparsing_1731445506121/work
 pyqt6==6.7.1
 pyqt6-sip @ file:///croot/pyqt-split_1744804475988/work/pyqt_sip
@@ -156,9 +161,13 @@ rfc3339-validator @ file:///croot/rfc3339-validator_1683077044675/work
 rfc3986-validator @ file:///croot/rfc3986-validator_1683058983515/work
 rpds-py @ file:///croot/rpds-py_1736541261634/work
 rpds-py==0.25.1
+scanpy==1.11.2
+scikit-learn @ file:///croot/scikit-learn_1737988764076/work
 scipy @ file:///croot/scipy_1747238027288/work/dist/scipy-1.15.3-cp311-cp311-linux_x86_64.whl
+seaborn==0.13.2
 send2trash @ file:///croot/send2trash_1736540790175/work
 send2trash==1.8.3
+session-info2==0.1.2
 setuptools==78.1.1
 sip @ file:///croot/sip_1738856193618/work
 six @ file:///croot/six_1744271502820/work
@@ -168,6 +177,7 @@ soupsieve @ file:///croot/soupsieve_1696347547217/work
 soupsieve==2.7
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 stack-data==0.6.3
+statsmodels==0.14.4
 sympy @ file:///croot/sympy_1738108488918/work
 terminado @ file:///work/ci_py311/terminado_1677696151350/work
 terminado==0.18.1
@@ -184,6 +194,7 @@ types-python-dateutil==2.9.0.20250516
 typing-extensions @ file:///croot/typing_extensions_1734714854207/work
 typing-extensions==4.14.0
 tzdata @ file:///croot/python-tzdata_1746123641790/work
+umap-learn==0.5.7
 unicodedata2 @ file:///croot/unicodedata2_1736541023050/work
 uri-template==1.3.0
 urllib3 @ file:///croot/urllib3_1737133630106/work
