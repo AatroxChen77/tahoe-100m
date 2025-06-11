@@ -1,7 +1,13 @@
 input_dim: 2000
-latent_dim: 32
+latent_dim: 20
+cond_dim: 146
+encoder_layers: [512, 128]
+decoder_layers: [128, 512, 2000]
+batch_norm: True
+activation: ReLU
 batch_size: 128
 learning_rate: 0.001
+weight_decay: 0.0001
 n_epochs: 200
 patience: 999
 timestamp: 20250611_061950
